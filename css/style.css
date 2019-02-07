@@ -55,6 +55,12 @@ nav {
     justify-content: center;
 }
 
+@media screen and (max-width:600px) {
+    .nav {
+        font-size: 11px !important;
+    }
+}    
+
 .link {
     padding: 6px 16px;
     font-weight: 400;
